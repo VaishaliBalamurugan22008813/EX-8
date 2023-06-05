@@ -39,7 +39,7 @@ c,addr=s.accept()
 while True:
     ClientMessage=c.recv(1024).decode()
     c.send(ClientMessage.encode())
-
+```
 OUTPUT :
 
 ![image](https://github.com/VaishaliBalamurugan22008813/EX-8/assets/119390134/df047f0e-ec78-4a6c-91d6-2f4de6454359)
